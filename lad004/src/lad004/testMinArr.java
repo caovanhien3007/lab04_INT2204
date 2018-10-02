@@ -1,14 +1,13 @@
-package lad004;
+package lab04;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class testMinArr {
+class tarrmin {
 
 	@Test
 	void test() {
-
 		lab04 tes=new lab04();
 		 int n = 5;
 	        int arr[] = new int[n] ;
@@ -22,8 +21,8 @@ class testMinArr {
 	        int result = tes.minArr(arr, n);
 	        assertEquals(expResult, result);
 	}
-	@Test2
-void test() {
+	@Test
+void test2() {
 
 		lab04 tes=new lab04();
 		 int n = 5;
@@ -38,8 +37,8 @@ void test() {
 	        int result = tes.minArr(arr, n);
 	        assertEquals(expResult, result);
 	}
-	@Test3
-	void test() {
+	@Test
+	void test3() {
 
 		lab04 tes=new lab04();
 		 int n = 5;
@@ -54,8 +53,8 @@ void test() {
 	        int result = tes.minArr(arr, n);
 	        assertEquals(expResult, result);
 	}
-	@test4
-	void test() {
+	@Test
+	void test4() {
 
 		lab04 tes=new lab04();
 		 int n = 5;
@@ -70,8 +69,8 @@ void test() {
 	        int result = tes.minArr(arr, n);
 	        assertEquals(expResult, result);
 	}
-	@Test5
-	void test() {
+	@Test
+	void test5() {
 
 		lab04 tes=new lab04();
 		 int n = 5;
