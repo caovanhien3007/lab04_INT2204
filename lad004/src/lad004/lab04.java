@@ -15,7 +15,7 @@ public class lab04 {
 	        }
 	        return min;
 	    }
-	public class bmi {
+	
     public static String Bmi(double cannang ,double chieucao)
     {
         double BMI=cannang/(chieucao*chieucao);
