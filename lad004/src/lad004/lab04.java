@@ -15,6 +15,17 @@ public class lab04 {
 	        }
 	        return min;
 	    }
+	public class bmi {
+    public static String Bmi(double cannang ,double chieucao)
+    {
+        double BMI=cannang/(chieucao*chieucao);
+        String tmp=new String();
+        if(BMI<18.5)tmp="thieucan";
+        if(BMI>=18.5 && BMI<23)tmp="binhthuong";
+        if(BMI>=23 && BMI <25)tmp="thua can";
+        if(BMI>=25)tmp="beo phi";
+        return tmp;
+    }
 	    public static void main(String[] args)
 	    {
 	        Scanner nhap = new Scanner(System.in);
