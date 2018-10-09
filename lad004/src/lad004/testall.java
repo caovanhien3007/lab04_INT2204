@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class testall {
 
-
+	
 
 		@Test
 		void test1() {
@@ -14,11 +14,11 @@ class testall {
 			lab04 tes=new lab04();
 			 double cannang = 100;
 		        double chieucao=1;
-
+		       
 		        String expResult = "beo phi";
 		        String result = tes.bmi(cannang, chieucao);
 		        assertEquals(expResult, result);
-
+		
 		}
 		@Test
 		void test2() {
@@ -26,11 +26,11 @@ class testall {
 			lab04 tes=new lab04();
 			 double cannang = 200;
 		        double chieucao=1.2;
-
+		       
 		        String expResult = "beo phi";
 		        String result = tes.bmi(cannang, chieucao);
 		        assertEquals(expResult, result);
-
+		
 		}
 		@Test
 		void test3() {
@@ -38,11 +38,11 @@ class testall {
 			lab04 tes=new lab04();
 			 double cannang = 500;
 		        double chieucao=2;
-
+		       
 		        String expResult = "beo phi";
 		        String result = tes.bmi(cannang, chieucao);
 		        assertEquals(expResult, result);
-
+		
 		}
 		@Test
 		void test4() {
@@ -50,11 +50,11 @@ class testall {
 			lab04 tes=new lab04();
 			 double cannang = 40;
 		        double chieucao=3;
-
+		       
 		        String expResult = "thieu can";
 		        String result = tes.bmi(cannang, chieucao);
 		        assertEquals(expResult, result);
-
+		
 		}
 		@Test
 		void test5() {
@@ -62,15 +62,15 @@ class testall {
 			lab04 tes=new lab04();
 			 double cannang = 49;
 		        double chieucao=2;
-
+		       
 		        String expResult = "thieu can";
 		        String result = tes.bmi(cannang, chieucao);
 		        assertEquals(expResult, result);
-
+		
 		}
 
-
-
+	
+	
 
 		@Test
 		void test6() {
@@ -82,7 +82,7 @@ class testall {
 		         arr[2]=3;
 		         arr[3]=56;
 		         arr[4]=23;
-
+		       
 		        int expResult = 3;
 		        int result = tes.minArr(arr, n);
 		        assertEquals(expResult, result);
@@ -98,7 +98,7 @@ class testall {
 		         arr[2]=33;
 		         arr[3]=56;
 		         arr[4]=23;
-
+		       
 		        int expResult = 4;
 		        int result = tes.minArr(arr, n);
 		        assertEquals(expResult, result);
@@ -114,7 +114,7 @@ class testall {
 		         arr[2]=31;
 		         arr[3]=56;
 		         arr[4]=23;
-
+		       
 		        int expResult = 23;
 		        int result = tes.minArr(arr, n);
 		        assertEquals(expResult, result);
@@ -130,7 +130,7 @@ class testall {
 		         arr[2]=39;
 		         arr[3]=56;
 		         arr[4]=213;
-
+		       
 		        int expResult = 35;
 		        int result = tes.minArr(arr, n);
 		        assertEquals(expResult, result);
@@ -146,12 +146,12 @@ class testall {
 		         arr[2]=31;
 		         arr[3]=56;
 		         arr[4]=123;
-
+		       
 		        int expResult = 31;
 		        int result = tes.minArr(arr, n);
 		        assertEquals(expResult, result);
 		}
-
+	
 	//class testma {
 
 		@Test
